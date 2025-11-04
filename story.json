@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1.0",
+    "title": "Point of no Return",
+    "description": "The weak were first to meet their fate - the strong soon followed; either falling with their comrades, or descending into madness. The few who still stood pillaged and plundered the land beneath them, razing fields of crops and taking children from their mother's bloodied arms.\n Few kept their sanity, you being one of them.",
+    "choices": [
+        {
+            "text": "Continue..",
+            "target": "1.1"
+        }
+    ]
+  },
+  {
+    "id": "1.1",
+    "title": "Point of no Return: The Descision",
+    "description": "Heavy chainmail coveres your body, with only a sword in hand. You stand at the entrance of an apparently abandoned fortress. The air around it is thick and heavy with pure dread - this isn't some regular castle. Your stomach churns painfully, begging for food - so the desicion is clear:",
+    "choices": [
+        {
+        "text": "Enter the ominous castle, looking for any scraps of food left",
+        "target": "2.0"
+        },
+        {
+            "text": "Leave the area, missing out on whatever's inside",
+            "target": "1.2"
+        }
+    ]
+  },
+  {
+    "id": "1.2",
+    "title": "Longing Death",
+    "description": "Having left the castle, your stomach can't help but ache endlessly. The search for food goes on for a few more days, but allas you cannot forage even a scrap of nutrition, leaving you with only one end: starvation.",
+    "choices": [
+        {
+        "text": "Death has caught up to you",
+        "target": ""
+        }
+    ]
+  },
+  {
+    "id": "2.0",
+    "title": "",
+    "description": "",
+    "choices": [
+        {
+        "text": "",
+        "target": ""
+        },
+        {
+            "text": "",
+            "target": ""
+        }
+    ]
+  },
+]
+
+
