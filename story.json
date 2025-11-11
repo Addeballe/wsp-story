@@ -1,53 +1,38 @@
 [
   {
     "id": "1.0",
-    "title": "Point of no Return",
-    "description": "The weak were first to meet their fate - the strong soon followed; either falling with their comrades, or descending into madness. The few who still stood pillaged and plundered the land beneath them, razing fields of crops and taking children from their mother's bloodied arms.\n Few kept their sanity, you being one of them.",
+    "title": "Tristan",
+    "description": "Fartyget gungade lätt längst den Irländska sjön. Solen sken starkt ned på skeppets däck, och i sin högra hand höll Tristan det blodiga huvudet av en Irländsk riddare.",
     "choices": [
         {
-            "text": "Continue..",
+            "text": "Fortsätt..",
             "target": "1.1"
         }
     ]
   },
   {
     "id": "1.1",
-    "title": "Point of no Return: The Descision",
-    "description": "Heavy chainmail coveres your body, with only a sword in hand. You stand at the entrance of an apparently abandoned fortress. The air around it is thick and heavy with pure dread - this isn't some regular castle. Your stomach churns painfully, begging for food - so the desicion is clear:",
+    "title": "Priset",
+    "description": "Han var på uppdrag av sin kung, Mark av Cornwall, för att hämta hem kungens brud, Isolde, från Irland. Under resan hade Tristan stött på en Irländsk riddare som försökt hindra honom från att fullfölja sitt uppdrag. Efter en hård kamp hade Tristan segrat och nu höll han riddarens huvud som bevis på sin triumf.",
     "choices": [
         {
-        "text": "Enter the ominous castle, looking for any scraps of food left",
-        "target": "2.0"
-        },
-        {
-            "text": "Leave the area, missing out on whatever's inside",
+            "text": "Fortsätt..",
             "target": "1.2"
         }
     ]
   },
   {
     "id": "1.2",
-    "title": "Longing Death",
-    "description": "Having left the castle, your stomach can't help but ache endlessly. The search for food goes on for a few more days, but allas you cannot forage even a scrap of nutrition, leaving you with only one end: starvation.",
+    "title": "Priset",
+    "description": "Han var nu påväg tillbaka till Cornwall med Isolde och riddarens huvud som tribut mot kungen av Cornwall",
     "choices": [
         {
-        "text": "Death has caught up to you",
-        "target": ""
-        }
-    ]
-  },
-  {
-    "id": "2.0",
-    "title": "",
-    "description": "",
-    "choices": [
-        {
-        "text": "",
-        "target": ""
+            "text": "Fortsätt..",
+            "target": "1.3"
         },
         {
-            "text": "",
-            "target": ""
+            "text": "Hoppa av skeppet och dö",
+            "target": "1-D"
         }
     ]
   },
