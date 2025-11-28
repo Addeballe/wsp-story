@@ -2,18 +2,22 @@
   {
     "id": "1.0",
     "title": "Tristan",
-    "description": "Fartyget gungade lätt längst den Irländska sjön. Solen sken starkt ned på skeppets däck, och i sin högra hand höll Tristan det blodiga huvudet av en Irländsk riddare.",
+    "description": "Året är 1150 e.Kr. Riddaren Tristan seglar tillbaka till Cornwall efter att ha besegrat en Irländsk riddare i strid. I sin hand håller han riddarens avhuggna huvud som bevis på sin seger.",
     "choices": [
         {
             "text": "Fortsätt..",
             "target": "1.1"
+        },
+        {
+            "text": "Dö, dramatiskt",
+            "target": "1-D"
         }
     ]
   },
   {
     "id": "1.1",
-    "title": "Priset",
-    "description": "Han var på uppdrag av sin kung, Mark av Cornwall, för att hämta hem kungens brud, Isolde, från Irland. Under resan hade Tristan stött på en Irländsk riddare som försökt hindra honom från att fullfölja sitt uppdrag. Efter en hård kamp hade Tristan segrat och nu höll han riddarens huvud som bevis på sin triumf.",
+    "title": "& Isolde",
+    "description": "Isolde är en vacker prinsessa från Irland som är förlovad med kung Mark av Cornwall. Riddaren Tristan har fått i uppdrag att hämta henne och föra henne till Cornwall för att gifta sig med kungen.",
     "choices": [
         {
             "text": "Fortsätt..",
@@ -24,7 +28,7 @@
   {
     "id": "1.2",
     "title": "Priset",
-    "description": "Han var nu påväg tillbaka till Cornwall med Isolde och riddarens huvud som tribut mot kungen av Cornwall",
+    "description": "När Tristan anländer till Irland och presenterar sig för Isolde, blir hon förtjust i honom. Hon erbjuder honom en stor belöning om han kan ta henne med sig tillbaka till Cornwall istället för att gifta sig med kung Mark.",
     "choices": [
         {
             "text": "Fortsätt..",
@@ -36,6 +40,17 @@
         }
     ]
   },
+  {
+    "id": "1-D",
+    "title": "Död",
+    "description": "Tristan hoppade av skeppet och drunknade dummt i den kalla, Irländska sjön. Hans uppdrag förblev ofullbordat, och kungen Mark blev rasande när han fick reda på att hans brud aldrig anlände.",
+    "choices": [
+        {
+            "text": "Börja om",
+            "target": ""
+        }
+    ]
+  }
 ]
 
 

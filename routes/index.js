@@ -3,8 +3,6 @@ const router = express.Router()
 
 router.get("/", (req, res) => {
     res.render("index.njk", {
-        title: "This page is rendered with Nunjucks",
-        message: "What a wonderful world, we're living in!"
     })
 })
 
